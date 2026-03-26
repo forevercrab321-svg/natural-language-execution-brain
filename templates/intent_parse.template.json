@@ -1,0 +1,45 @@
+{
+  "intent_parse": {
+    "intent_summary": "What the user really wants, freed from literal wording",
+    "real_goal": "The actual intended outcome, not just stated means",
+    "deliverable": "Concrete output expected by user",
+    "hard_constraints": [
+      "Non-negotiable rules",
+      "Things that must be satisfied"
+    ],
+    "soft_preferences": [
+      "Preferred style",
+      "Optional enhancements"
+    ],
+    "forbidden_actions": [
+      "Things that must NOT be done",
+      "Behaviors to avoid"
+    ],
+    "approval_boundaries": [
+      "payment",
+      "legal",
+      "security"
+    ],
+    "assumptions": [
+      "Inferred context used during parsing",
+      "Things assumed about user's intent"
+    ],
+    "execution_mode": "direct_execute",
+    "urgency": "normal",
+    "next_actions": [
+      "First actionable step",
+      "Second actionable step",
+      "Continue in order..."
+    ],
+    "success_criteria": [
+      "How to measure if task succeeded",
+      "Conditions that indicate completion"
+    ],
+    "fallback_plan": [
+      "If blocked on primary path, do this",
+      "Alternative approach if needed"
+    ],
+    "confidence": 0.85,
+    "ambiguity_notes": "Any ambiguities noted and how they were resolved"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "user_request": "你别分析，直接给我能发给团队执行的东西。",
+  "english_translation": "Don't analyze. Give me something I can send to the team to execute directly.",
+  "scenario_type": "operational_output_request",
+  "characteristics": [
+    "Explicitly forbids analysis/explanation",
+    "Demands operational/executable output",
+    "Team shareable (not for individual use)",
+    "Concise, action-oriented language",
+    "No back-and-forth wanted"
+  ],
+  "parsed_intent": {
+    "intent_summary": "User wants operational instructions that can be immediately executed by a team",
+    "real_goal": "Get a ready-to-execute instruction block that team members can follow directly",
+    "deliverable": "Concise, step-by-step operational instruction block (no theory, no explanation)",
+    "forbidden_actions": [
+      "Do not provide conceptual explanations",
+      "Do not give background rationale",
+      "Do not include 'how it works' sections"
+    ],
+    "execution_mode": "direct_execute",
+    "urgency": "high"
+  }
+}

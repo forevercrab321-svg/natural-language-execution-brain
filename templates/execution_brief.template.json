@@ -1,0 +1,27 @@
+{
+  "execution_brief": {
+    "task_id": "unique_id_for_this_task",
+    "intent_parse": {
+      "intent_summary": "...",
+      "real_goal": "...",
+      "deliverable": "..."
+    },
+    "primary_objective": "Restatement of the main goal",
+    "gated_items": [
+      {
+        "item": "Decisions or actions requiring approval",
+        "gate": "approval_type_required"
+      }
+    ],
+    "autonomous_items": [
+      "Items that can proceed without approval",
+      "Regular tasks"
+    ],
+    "should_ask_for_approval": false,
+    "should_operate_autonomously": true,
+    "should_report_status": false,
+    "reporting_threshold": "material_changes_only",
+    "status": "ready",
+    "blocked_reason": ""
+  }
+}

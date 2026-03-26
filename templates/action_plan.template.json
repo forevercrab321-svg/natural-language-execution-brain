@@ -1,0 +1,32 @@
+{
+  "action_plan": {
+    "plan_id": "unique_id_for_this_plan",
+    "intent_parse": {
+      "intent_summary": "...",
+      "real_goal": "..."
+    },
+    "actions": [
+      {
+        "id": "action_1",
+        "description": "First task description",
+        "type": "create|execute|analyze|validate|deliver",
+        "parameters": {
+          "param1": "value1",
+          "param2": "value2"
+        },
+        "requires_approval": false,
+        "depends_on": []
+      },
+      {
+        "id": "action_2",
+        "description": "Second task description",
+        "type": "execute",
+        "parameters": {},
+        "requires_approval": false,
+        "depends_on": ["action_1"]
+      }
+    ],
+    "execution_order": "sequential",
+    "failure_mode": "stop_on_first_error"
+  }
+}

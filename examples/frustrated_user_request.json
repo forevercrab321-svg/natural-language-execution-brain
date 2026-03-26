@@ -1,0 +1,24 @@
+{
+  "user_request": "别老汇报，直接推进。除非付款和法律文件，不要来问我。",
+  "english_translation": "Stop reporting constantly, just push forward. Don't ask me about anything except payment and legal documents.",
+  "scenario_type": "frustrated_autonomy_request",
+  "characteristics": [
+    "Emotional/frustrated language",
+    "Contains operational directives (stop X, do Y)",
+    "Explicit boundaries (except payment & legal)",
+    "Implies hidden priority: maximize autonomous execution",
+    "Frustrated tone signals strong preference for independence"
+  ],
+  "parsed_intent": {
+    "intent_summary": "User wants autonomous execution with minimal communication overhead",
+    "real_goal": "Maximize independent agent work and minimize interruptions",
+    "deliverable": "Clear operating parameters for autonomous execution",
+    "hard_constraints": [
+      "Minimize clarification questions and status reports",
+      "Gate only on payment and legal matters"
+    ],
+    "execution_mode": "approval_gated_execute",
+    "urgency": "high",
+    "approval_boundaries": ["payment", "legal"]
+  }
+}
