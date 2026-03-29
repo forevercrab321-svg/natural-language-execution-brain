@@ -1,3 +1,8 @@
+---
+name: natural-language-execution-brain
+description: Convert messy, emotional, incomplete, or indirect natural language into executable agent behavior. Use when the user describes outcomes instead of procedures, expresses frustration without clear instructions, or gives priorities indirectly. Interprets meaning over wording.
+---
+
 # natural-language-execution-brain-1.0.0
 
 ## 🎯 Mission
